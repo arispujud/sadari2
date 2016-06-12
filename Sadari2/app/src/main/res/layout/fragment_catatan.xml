@@ -1,0 +1,87 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="match_parent" android:background="#f9f5ea" tools:context="com.example.apkit.sadari2.CatatanFragment">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <CalendarView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:id="@+id/calendarView"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:selectedDateVerticalBar="@color/colorAccent"/>
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="175dp"
+                android:layout_below="@id/calendarView"
+                android:background="#FFFFFF"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/activity_vertical_margin"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:hint="Write Notes"
+                android:textAlignment="center"
+                android:id="@+id/notes"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Simpan"
+                android:id="@+id/btn_catatan_simpan"
+                android:layout_alignParentBottom="true"
+                android:layout_toLeftOf="@+id/notes"
+                android:layout_toStartOf="@+id/notes" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/notes"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text="Perasaanmu :"
+                android:id="@+id/txt_catatan_perasaan"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_marginLeft="@dimen/activity_vertical_margin" />
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/ima_emot"
+                android:src="@drawable/ehappy"
+                android:layout_below="@+id/txt_catatan_perasaan"
+                android:layout_marginLeft="@dimen/activity_vertical_margin"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ima_emot"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text="Kondisi Payudara :"
+                android:id="@+id/txt_catatan_payudara"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_marginLeft="@dimen/activity_vertical_margin" />
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/ima_pd"
+                android:src="@drawable/kbaik"
+                android:layout_below="@id/txt_catatan_payudara"
+                android:layout_marginLeft="@dimen/activity_vertical_margin"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ima_pd"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text="Saat menstruasi :"
+                android:id="@+id/txt_catatan_haid"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_marginLeft="@dimen/activity_vertical_margin" />
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/ima_haid"
+                android:src="@drawable/mbaik"
+                android:layout_below="@id/txt_catatan_haid"
+                android:layout_marginLeft="@dimen/activity_vertical_margin"/>
+        </RelativeLayout>
+    </ScrollView>
+</FrameLayout>

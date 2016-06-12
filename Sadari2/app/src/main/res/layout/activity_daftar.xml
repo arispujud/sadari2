@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f9f5ea">
+
+    <EditText
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:drawableLeft="@drawable/email"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/namadepan"
+        android:hint="Nama Lengkap"
+        android:layout_gravity="center"
+        android:drawablePadding="@dimen/activity_horizontal_margin"/>
+
+    <EditText
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/email2"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/emaildaftar"
+        android:hint="Email"
+        android:layout_gravity="center"/>
+    <EditText
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/password"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/sandidaftar"
+        android:hint="Password"
+        android:layout_gravity="center"
+        android:drawablePadding="@dimen/activity_horizontal_margin"/>
+    <Button
+        android:layout_width="239dp"
+        android:layout_height="50dp"
+        android:text="Daftar"
+        android:textColor="#ffffff"
+        android:id="@+id/buttondaftar2"
+        android:layout_gravity="center"
+        android:background="#f99f51"
+        android:onClick="onSignUpClick"/>
+
+</LinearLayout>

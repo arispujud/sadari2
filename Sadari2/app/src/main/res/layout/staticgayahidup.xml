@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f9f5ea">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:id="@+id/gmb4"
+        android:src="@drawable/gmb4"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="#FFE9C9CA"
+        android:textColor="#ec6494"
+        android:layout_marginTop="300dp"
+        android:id="@+id/btnp_4_1"
+        android:text="Do"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="#FFE9C9CA"
+        android:textColor="#ec6494"
+        android:layout_marginTop="355dp"
+        android:id="@+id/btnp_4_2"
+        android:text="Don't"/>
+
+</FrameLayout>

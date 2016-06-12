@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f9f5ea"
+    tools:context=".LoginActivity">
+
+    <EditText
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/email"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/emaillogin"
+        android:hint="Email"
+        android:layout_marginBottom="61dp"
+        android:layout_above="@+id/buttonlogin"
+        android:layout_centerHorizontal="true"
+        android:autoText="false" />
+
+    <EditText
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/password"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/sandilogin"
+        android:hint="Kata Sandi"
+        android:layout_above="@+id/buttonlogin"
+        android:layout_alignLeft="@+id/emaillogin"
+        android:layout_alignStart="@+id/emaillogin" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Masuk"
+        android:id="@+id/buttonlogin"
+        android:background="#f99f51"
+        android:textColor="#ffffff"
+        android:layout_centerVertical="true"
+        android:layout_alignRight="@+id/sandilogin"
+        android:layout_alignEnd="@+id/sandilogin"
+        android:layout_alignLeft="@+id/sandilogin"
+        android:layout_alignStart="@+id/sandilogin"
+        android:onClick="onButtonClick"/>
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="   Baru Bergabung?"
+        android:id="@+id/textView2"
+        android:textColor="#753f6f"
+        android:layout_below="@+id/buttonlogin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="39dp" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Daftar"
+        android:id="@+id/buttondaftar"
+        android:background="#f89e51"
+        android:layout_below="@+id/textView2"
+        android:layout_alignLeft="@+id/buttonlogin"
+        android:layout_alignStart="@+id/buttonlogin"
+        android:layout_alignRight="@+id/buttonlogin"
+        android:layout_alignEnd="@+id/buttonlogin"
+        android:textColor="#ffffff"
+        android:onClick="onButtonClick"/>
+</RelativeLayout>

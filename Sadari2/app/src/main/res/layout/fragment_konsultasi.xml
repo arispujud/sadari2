@@ -1,0 +1,99 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:background="#f9f5ea"
+    android:verticalScrollbarPosition="right"
+    tools:context="FiveFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_margin="@dimen/activity_vertical_margin"
+            android:id="@+id/gambarkonsul"
+            android:src="@drawable/gambarkonsul"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/gambarkonsul"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Topik"
+            android:textColor="@color/colorPrimary"
+            android:id="@+id/topik" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:layout_marginRight="@dimen/activity_vertical_margin"
+            android:background="#ffffff"
+            android:ems="10"
+            android:id="@+id/keluhan"
+            android:hint="Tuliskan keluhan anda"
+            android:layout_below="@id/topik"
+            android:paddingLeft="@dimen/activity_vertical_margin"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/keluhan"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Rincian"
+            android:textColor="@color/colorPrimary"
+            android:id="@+id/rincian" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:layout_marginRight="@dimen/activity_vertical_margin"
+            android:layout_below="@+id/rincian"
+            android:gravity="top"
+            android:background="#ffffff"
+            android:ems="10"
+            android:id="@+id/keluhandetail"
+            android:hint="Tuliskan detail keluhan anda"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:paddingLeft="@dimen/activity_vertical_margin"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Unggah Data"
+                android:id="@+id/buttonunggah"
+                android:layout_margin="@dimen/activity_vertical_margin"
+                android:background="#f89e51"
+                android:textColor="#ffffff" />
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Kirim"
+                android:id="@+id/buttonkirim"
+                android:layout_margin="@dimen/activity_vertical_margin"
+                android:background="#f99f51"
+                android:textColor="#ffffff"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

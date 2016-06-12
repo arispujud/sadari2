@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.apkit.sadari2">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/iconutama"
+        android:label="Sadari"
+        android:logo="@drawable/iconutama"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashScreen"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".DaftarActivity" />
+        <activity android:name=".DataUserActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".SadariActivity" />
+        <activity android:name=".LogActivity" />
+        <activity
+            android:name=".LatihanActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Panduan"></activity>
+        <activity android:name=".MoodActivity"></activity>
+        <activity android:name=".SettingActivity"></activity>
+        <activity android:name=".StaticPayudara"></activity>
+        <activity android:name=".StaticGayaHidup"></activity>
+        <activity android:name=".StaticKanker"></activity>
+        <activity android:name=".StaticTips"></activity>
+        <activity android:name=".Pay1" android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".Pay2" android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".Pay3" android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".Kanker1" android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".Kanker2" android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".Kanker3" android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".Tips1" android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".Tips2" android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".Tips3" android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".Gaya1" android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".Gaya2" android:theme="@style/AppTheme.NoActionBar"></activity>
+        <receiver android:name=".NotificationPublisher"></receiver>
+        <!-- ATTENTION: This was auto-generated to add Google Play services to your project for
+             App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information. -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+    </application>
+
+
+</manifest>

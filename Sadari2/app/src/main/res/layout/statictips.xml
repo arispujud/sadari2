@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f9f5ea">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:id="@+id/gmb3"
+        android:src="@drawable/gmb3"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="#FFE9C9CA"
+        android:textColor="#ec6494"
+        android:layout_marginTop="300dp"
+        android:id="@+id/btnp_3_1"
+        android:text="Pemilihan Bra"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="#FFE9C9CA"
+        android:textColor="#ec6494"
+        android:layout_marginTop="355dp"
+        android:id="@+id/btnp_3_2"
+        android:text="Deteksi Dini"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="#FFE9C9CA"
+        android:textColor="#ec6494"
+        android:layout_marginTop="410dp"
+        android:id="@+id/btnp_3_3"
+        android:text="Perawatan Payudara"/>
+</FrameLayout>

@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Sadari2</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_clakun">clakun</string>
+
+    <string-array name="riwayat">
+        <item>Tidak Ada</item>
+        <item>Diri Sendiri</item>
+        <item>Ibu/Saudara Perempuan</item>
+        <item>Nenek/Tante/Sepupu</item>
+    </string-array>
+
+    <string-array name="bulan">
+        <item>Jan</item>
+        <item>Feb</item>
+        <item>Mar</item>
+        <item>Apr</item>
+        <item>Mei</item>
+        <item>Jun</item>
+        <item>Jul</item>
+        <item>Agu</item>
+        <item>Sep</item>
+        <item>Okt</item>
+        <item>Nop</item>
+        <item>Des</item>
+    </string-array>
+
+    <string-array name="konsumsipil">
+        <item>Tidak Pernah</item>
+        <item>Pernah</item>
+    </string-array>
+
+    <string-array name="identitas">
+        <item>Belum Punya Anak </item>
+        <item>Punya Anak dan Menyusui kurang dari 1 tahun</item>
+        <item>Punya Anak dan Menyusui lebih dari 1 tahun</item>
+    </string-array>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_main3">Main3Activity</string>
+
+</resources>

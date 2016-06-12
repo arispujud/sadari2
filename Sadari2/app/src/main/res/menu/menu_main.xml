@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.apkit.sadari2.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:title="Setting"
+        android:icon="@drawable/email3">
+    </item>
+    <item
+        android:id="@+id/action_alarm"
+        android:title="Aktifkan Notification Sadari">
+    </item>
+
+    
+</menu>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.apkit.sadari2.MoodActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Bagaimana perasaanmu hari ini?"
+                android:id="@+id/textView3" />
+            <GridView
+                android:id="@+id/gridView_emot"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:columnWidth="90dp"
+                android:numColumns="auto_fit"
+                android:verticalSpacing="10dp"
+                android:horizontalSpacing="10dp"
+                android:stretchMode="columnWidth"
+                android:gravity="center">
+
+            </GridView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Bagaimana kondisi payudaramu?"
+                android:id="@+id/textView4" />
+            <GridView
+                android:id="@+id/gridView_payudara"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:columnWidth="90dp"
+                android:numColumns="auto_fit"
+                android:verticalSpacing="10dp"
+                android:horizontalSpacing="10dp"
+                android:stretchMode="columnWidth"
+                android:gravity="center">
+
+            </GridView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Apa yang kamu rasakan saat Haid?"
+                android:id="@+id/textView5" />
+            <GridView
+                android:id="@+id/gridView_haid"
+                android:layout_width="match_parent"
+                android:layout_height="175dp"
+                android:columnWidth="90dp"
+                android:numColumns="auto_fit"
+                android:verticalSpacing="10dp"
+                android:horizontalSpacing="10dp"
+                android:stretchMode="columnWidth"
+                android:gravity="center">
+
+            </GridView>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end|bottom"
+                android:text="Simpan"
+                android:background="#ffbb00"
+                android:textColor="#ffffff"
+                android:id="@+id/btn_mood"
+                android:layout_marginRight="@dimen/activity_vertical_margin"
+                android:layout_marginBottom="@dimen/activity_horizontal_margin"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

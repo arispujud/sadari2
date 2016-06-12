@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_sadari"
+        android:icon="@drawable/iconsadari"
+        android:title="Sadari" />
+
+    <item
+        android:id="@+id/nav_Latihan"
+        android:icon="@drawable/iconlatihan"
+        android:title="Latihan" />
+
+    <item
+        android:id="@+id/nav_Catatan"
+        android:icon="@drawable/iconcatatan"
+        android:title="Catatan" />
+
+    <item
+        android:id="@+id/nav_Payudara"
+        android:icon="@drawable/iconpayudara"
+        android:title="Payudara" />
+    <item
+        android:id="@+id/nav_Konsultasi"
+        android:icon="@drawable/iconkonsultasi"
+        android:title="Konsultasi" />
+
+
+</menu>
