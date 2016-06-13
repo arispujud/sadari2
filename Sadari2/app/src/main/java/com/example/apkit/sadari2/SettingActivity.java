@@ -52,7 +52,7 @@ public class SettingActivity extends AppCompatActivity implements View.OnClickLi
                  startActivity(new Intent(SettingActivity.this,DataUserActivity.class));
                 break;
             case R.id.buttontampil:
-                startActivity(new Intent(SettingActivity.this,LogActivity.class));
+                startActivity(new Intent(SettingActivity.this,LogBaruActivity.class));
                 break;
             case R.id.buttonsetalarm:
                 dialogAddHaid();

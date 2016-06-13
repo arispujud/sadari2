@@ -76,6 +76,7 @@ public class MoodActivity extends AppCompatActivity {
                 catch (Exception e){
                 }
                 Intent i = new Intent(MoodActivity.this,MainActivity.class);
+                i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 i.putExtra("goto","catatan");
                 startActivity(i);
             }

@@ -32,32 +32,61 @@
         <activity
             android:name=".LatihanActivity"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".Panduan"></activity>
-        <activity android:name=".MoodActivity"></activity>
-        <activity android:name=".SettingActivity"></activity>
-        <activity android:name=".StaticPayudara"></activity>
-        <activity android:name=".StaticGayaHidup"></activity>
-        <activity android:name=".StaticKanker"></activity>
-        <activity android:name=".StaticTips"></activity>
-        <activity android:name=".Pay1" android:theme="@style/AppTheme.NoActionBar"></activity>
-        <activity android:name=".Pay2" android:theme="@style/AppTheme.NoActionBar"></activity>
-        <activity android:name=".Pay3" android:theme="@style/AppTheme.NoActionBar"></activity>
-        <activity android:name=".Kanker1" android:theme="@style/AppTheme.NoActionBar"></activity>
-        <activity android:name=".Kanker2" android:theme="@style/AppTheme.NoActionBar"></activity>
-        <activity android:name=".Kanker3" android:theme="@style/AppTheme.NoActionBar"></activity>
-        <activity android:name=".Tips1" android:theme="@style/AppTheme.NoActionBar"></activity>
-        <activity android:name=".Tips2" android:theme="@style/AppTheme.NoActionBar"></activity>
-        <activity android:name=".Tips3" android:theme="@style/AppTheme.NoActionBar"></activity>
-        <activity android:name=".Gaya1" android:theme="@style/AppTheme.NoActionBar"></activity>
-        <activity android:name=".Gaya2" android:theme="@style/AppTheme.NoActionBar"></activity>
-        <receiver android:name=".NotificationPublisher"></receiver>
-        <!-- ATTENTION: This was auto-generated to add Google Play services to your project for
-             App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information. -->
+        <activity android:name=".Panduan" />
+        <activity android:name=".MoodActivity" />
+        <activity
+            android:name=".SettingActivity"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".StaticPayudara" />
+        <activity android:name=".StaticGayaHidup" />
+        <activity android:name=".StaticKanker" />
+        <activity android:name=".StaticTips" />
+        <activity
+            android:name=".Pay1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Pay2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Pay3"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Kanker1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Kanker2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Kanker3"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Tips1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Tips2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Tips3"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Gaya1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Gaya2"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <receiver android:name=".NotificationPublisher" />
+        <!--
+             ATTENTION: This was auto-generated to add Google Play services to your project for
+             App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
 
+        <activity
+            android:name=".LogBaruActivity"
+            android:parentActivityName=".SettingActivity"/>
     </application>
-
 
 </manifest>
